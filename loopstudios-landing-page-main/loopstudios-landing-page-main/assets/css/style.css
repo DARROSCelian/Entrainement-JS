@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:wght@100&display=swap');
+:root {
+    --maxwidth: 1500px;
+    --white: #FFFFFF
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    max-width: var(--maxwidth);
+}
+header {
+    display: flex;
+    position: relative;
+    color: var(--white);
+    background-image: url("../../images/desktop/image-hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width: 100%;
+    height: 860px;
+    background-blend-mode: darken;
+    background-color: #999999;
+}
+#content {
+    display: flex;
+    max-width: var(--maxwidth);
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 200px;
+}
+#liens {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#logo, header a {
+    color: var(--white);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+h1 {
+    position: absolute;   
+    bottom: 15%;
+    left: calc(var(--maxwidth)-25vw);
+    padding: 50px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    padding: 35px 115px 35px 35px;
+    border: 2px solid var(--white);
+    line-height: 1.1em;
+}
+ul {
+    list-style: none;
+}
+section {
+    position: relative;
+    margin: 150px 0;
+    width: 100%;
+}
+section div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: grid;
+    background-color: var(--white);
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    width: 40%; 
+    font-size: large;
+    padding: 100px 0 0 100px;
+}
+section h2 {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+}
+section p {
+    font-family: "Josefin sans", sans-serif;
+    font-weight: 450;
+    color: gray;
+    padding: 35px 0 0 0;
+    line-height: 30px;
+}
+section img {
+    position: static;
+    width: 70%;
+    bottom: 0;
+    left: 0;
+}
+#creations {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+#creations h2 {
+    top: 0;
+    left: 0;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+#creations a {
+    position: absolute;
+    font-family: "Josefin sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    font-weight: 800;
+    color: black;
+    border: solid black 2px;
+    bottom: 0;
+    right: 0;
+    padding: 12px 50px;
+    transition: 0.2s;
+}
+#creations a:hover {
+    color: var(--white);
+    background-color: #000;
+}
+#pics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    padding: 100px 0;
+}
+#pics li {
+    position: relative;
+    height: 450px;
+    width: calc(25% - 22.5px);
+    background-size: cover;
+}
+#pics li:hover {
+    background-blend-mode: screen;
+    background-color: #999999;    
+}
+#pics li:hover p {
+    color: #000;
+}
+#pics a {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#pics p {
+    position: absolute;
+    color: var(--white);
+    bottom: 40px;
+    left: 40px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+}
+#earth {
+    background-image: url(../../images/desktop/image-deep-earth.jpg);
+}
+#arcade {
+    background-image: url(../../images/desktop/image-night-arcade.jpg);
+}
+#soccer {
+    background-image: url(../../images/desktop/image-soccer-team.jpg);
+}
+#grid {
+    background-image: url(../../images/desktop/image-grid.jpg);
+}
+#VR {
+    background-image: url(../../images/desktop/image-from-above.jpg);
+}
+#boreal {
+    background-image: url(../../images/desktop/image-pocket-borealis.jpg);
+}
+#curiosity {
+    background-image: url(../../images/desktop/image-curiosity.jpg);
+}
+#fisheye {
+    background-image: url(../../images/desktop/image-fisheye.jpg);
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: var(--white);
+    width: 100%;
+    height: 150px;
+    font-family: "Josefin sans", sans-serif;
+}
+#footer-container {
+    width: var(--maxwidth);
+    display: flex;
+    align-items: center;
+}
+#footer-container>div {
+    width: 50%;
+    gap: 25px;
+}
+#socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#socials ul {
+    display: flex;
+    gap: 15px;
+}
+#socials li {
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+}
+#socials li:hover {
+    border-bottom: 2px solid var(--white);
+}
+footer a {
+    color: var(--white);
+}
+#loop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#loop ul {
+    display: flex;
+    gap: 15px;
+}
+#loop li {
+    position: relative;
+}
+#loop li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    left: 25%;
+    background-color: var(--white);
+    height: 1px;
+    transform: translateY(10px);
+}
+#loop li:hover::after {
+    width: 50%;
+}
+#liens li {
+    position: relative;
+}
+#liens li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    left: 25%;
+    background-color: var(--white);
+    height: 1px;
+    transform: translateY(10px);
+}
+#liens li:hover::after {
+    width: 50%;
+}
+#burger {
+    display: none;
+}
+@media (max-width: 1550px) {
+    #burger {
+        display: flex;
+    }
+    #liens {
+        display: none;
+    }
+    h1 { 
+        bottom: 15%;
+        left: calc(var(--maxwidth)-25vw);
+        padding: 50px;
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
+        font-size: 195%;
+        font-weight: 200;
+        letter-spacing: 0.05em;
+        padding: 3% 5% 3% 3%;
+        border: 2px solid var(--white);
+        line-height: 1.1em;
+        width: 15%;
+        bottom: 35%;
+    }
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+    .section img {
+        display: flex;
+        position: relative;
+        justify-content: ;
+    }
+    .section div {
+        display: flex;
+        position: relative;
+        align-items: center;
+    }
+}
