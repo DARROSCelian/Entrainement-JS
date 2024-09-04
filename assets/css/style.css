@@ -213,6 +213,9 @@ footer {
     height: 150px;
     font-family: "Josefin sans", sans-serif;
 }
+.seeall {
+    display: none;
+}
 #footer-container {
     width: var(--maxwidth);
     display: flex;
@@ -298,27 +301,88 @@ footer a {
         padding: 50px;
         font-family: "Raleway", sans-serif;
         text-transform: uppercase;
-        font-size: 195%;
+        font-size: 5.5em;
         font-weight: 200;
         letter-spacing: 0.05em;
         padding: 3% 5% 3% 3%;
         border: 2px solid var(--white);
+        border-width: 20%;
         line-height: 1.1em;
-        width: 15%;
-        bottom: 35%;
+        bottom: 30%;
     }
-    .section {
-        display: flex;
-        flex-direction: column;
+    section {
+        margin: 150px 0 50px 0;
+        width: 100%;
     }
-    .section img {
-        display: flex;
+    section div {
         position: relative;
-        justify-content: ;
+        width: 50%;
+        color: #000;
+        font-size: large;
+        padding: 50px 0;
+        left: 30%;
     }
-    .section div {
-        display: flex;
+    section h2 {
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 40px;
+        font-weight: 300;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+    section p {
+        font-family: "Josefin sans", sans-serif;
+        font-weight: 450;
+        color: gray;
+        line-height: 30px;
+        text-align: center;
+        padding: 15px;
+    }
+    section img {
+        width: 100%;
+    }
+    #creations {
         position: relative;
-        align-items: center;
+        width: 100%;
+    }
+    #creations h2 {
+        font-family: "Raleway", sans-serif;
+        text-transform: uppercase;
+        font-size: 65px;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        text-align: center;
+    }
+    #creations a {
+        display: none;
+        position: absolute;
+        font-family: "Josefin sans", sans-serif;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        letter-spacing: 0.2em;
+        font-weight: 800;
+        color: black;
+        border: solid black 2px;
+        top: 1130px;
+        right: 400px;
+        padding: 20px 50px 35px 50px;
+        transition: 0.2s;
+    }
+    .seeall {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #seeall {
+        font-family: "Josefin sans", sans-serif;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        letter-spacing: 0.2em;
+        font-weight: 800;
+        color: black;
+        border: solid black 2px;
+        padding: 20px 50px;
+        transition: 0.2s;
     }
 }
