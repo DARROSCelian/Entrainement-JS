@@ -310,18 +310,6 @@ footer a {
         left: calc(var(--maxwidth)-25vw);
         font-family: "Raleway", sans-serif;
         text-transform: uppercase;
-<<<<<<< Updated upstream
-        font-size: 195%;
-        font-weight: 200;
-        letter-spacing: 0.05em;
-        padding: 3% 5% 3% 3%;
-        border: 2px solid var(--white);
-        line-height: 1.1em;
-        width: 15%;
-        bottom: 35%;
-    }
-    .section {
-=======
         font-weight: 400;
         letter-spacing: 0.05em;
         line-height: 1.1em;
@@ -385,21 +373,9 @@ footer a {
     }
     .seeall {
         width: 100%;
->>>>>>> Stashed changes
         display: flex;
         flex-direction: column;
     }
-<<<<<<< Updated upstream
-    .section img {
-        display: flex;
-        position: relative;
-        justify-content: ;
-    }
-    .section div {
-        display: flex;
-        position: relative;
-        align-items: center;
-=======
     #seeall {
         font-family: "Josefin sans", sans-serif;
         text-transform: uppercase;
@@ -536,6 +512,5 @@ footer a {
         align-items: center;
         gap: 35px;
         padding-bottom: 25px;
->>>>>>> Stashed changes
     }
 }
